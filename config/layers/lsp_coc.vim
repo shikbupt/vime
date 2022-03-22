@@ -17,5 +17,5 @@ let g:coc_global_extensions = [
     \ 'coc-just-complete',
     \ 'coc-python',
     \ 'coc-marketplace',
-    \ 'coc-java',
+    \ 'coc-go',
   \ ]

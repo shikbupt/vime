@@ -1,5 +1,5 @@
 " 主题theme类插件
-Plug 'glepnir/zephyr-nvim'
+" Plug 'glepnir/zephyr-nvim'
 Plug 'ajmwagar/vim-deus'
 Plug 'rakr/vim-one'
 Plug 'arcticicestudio/nord-vim'

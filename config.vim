@@ -1,3 +1,7 @@
+" 指明pyhton位置，加快vi启动速度¬
+let g:python_host_prog  = '/usr/bin/python2'
+let g:python3_host_prog = '$HOME/.miniconda3/bin/python'
+
 " vimrc所在根目录
 let g:vim_root_path = fnamemodify($MYVIMRC, ':h') . '/'
 " 配置所在根目录

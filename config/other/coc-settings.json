@@ -37,5 +37,11 @@
     "diagnostic.hintSign": "●",
     "diagnostic.displayByAle": false,
     "diagnostic.maxWindowHeight": 10,
-    "languageserver": {}
+    "languageserver": {
+        "golang": {
+            "comand": "gopls",
+            "rootPatterns": ["go.mod"],
+            "filetypes": ["go"]
+        }
+    }
 }
