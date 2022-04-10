@@ -118,3 +118,9 @@ tnoremap <silent> <M-H> <c-\><c-n>:tabmove -1<cr>
 
 " 使用系统应用打开当前buffer文件
 noremap <silent> <M-x> :call common#functions#OpenFileUsingSystemApp(expand('%:p'))<cr>
+
+function s:toggleNu() abort
+    set nu!
+    set relativenumber!
+endfunction
+nmap <silent> <F12> :call <SID>toggleNu()<cr>
