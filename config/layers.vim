@@ -1,4 +1,8 @@
 " 插件组合
+if exists('g:vscode')
+    LoadScript layers/vscode.vim
+    finish
+endif
 
 " lsp插件选择
 " LoadScript layers/lsp_ycm.vim
