@@ -122,5 +122,6 @@ noremap <silent> <M-x> :call common#functions#OpenFileUsingSystemApp(expand('%:p
 function s:toggleNu() abort
     set nu!
     set relativenumber!
+    set list!
 endfunction
 nmap <silent> <F12> :call <SID>toggleNu()<cr>
